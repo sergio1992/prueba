@@ -8,9 +8,22 @@ and open the template in the editor.
     <head>
         <title>TODO supply a title</title>
         <meta charset="windows-1252">
+   
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.js"></script>
+        <link rel="stylesheet" href="js/libs/twitter-bootstrap/js/bootstrap.js">
+        <link rel="stylesheet" href="js/libs/twitter-bootstrap/css/bootstrap.css">
+        <script src="js/libs/guardarT.js"></script>
     </head>
+   
     <body>
-        <div>TODO write content</div>
-    </body>
+        <label>nombre</label>
+        <input type="text" id="nombre" class="form-control"/>
+        <label>paterno</label>
+         <input type="text" id="paterno" class="form-control"/>
+        <label>materno</label>
+         <input type="text" id="materno" class="form-control"/>
+         <a id="act-tra" class="btn btn-default">guardar trabajador</a>
+         <div id="resultadoG"></div>
+        </body>
 </html>
